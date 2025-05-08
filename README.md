@@ -21,6 +21,17 @@ A responsive movie browsing web application built using **React**, **Material UI
 
 ---
 
+## 🚀 APIs Implemented
+
+| Purpose                            | Endpoint                                                  |
+| ---------------------------------- | --------------------------------------------------------- |
+| 🔍 Search movies                   | `GET /search/movie?query={query}`                         |
+| 📄 Get movie details               | `GET /movie/{movie_id}`                                   |
+| 🎭 Get genres list                 | `GET /genre/movie/list`                                   |
+| 🎬 Get full details (cast, videos) | `GET /movie/{movie_id}?append_to_response=videos,credits` |
+
+---
+
 ## 🔧 Project Setup
 
 ### 1. Clone the Repository
