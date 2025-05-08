@@ -1,42 +1,31 @@
-# 🎬 Movie Explorer
+# 🎬 React Movie App
 
-A modern, responsive movie browser built with **React** and **Material UI**, powered by **The Movie Database (TMDb) API**.
-
-![Movie Explorer Screenshot](./public/screenshot.png)
+A responsive movie browsing web application built using **React**, **Material UI**, and **The Movie Database (TMDb) API**.
 
 ---
 
-## 🚀 Features
+## 🚀 Features Implemented
 
-- 🔍 **Search** movies by title
-- 🧠 **Search history** with auto-fill on focus
-- 🎞️ **View movie details** with poster, genre, cast, rating, and overview
-- 🎬 **Watch trailers** embedded from YouTube
-- 🌟 **Trending movies** section
-- 🎚️ **Filters** by genre, year
-- 💡 **Light/Dark mode toggle**
-- 💾 **Favorites** stored in localStorage
-- 📦 **Load More** pagination for search results
-- 📱 **Responsive** and mobile-friendly design
-
----
-
-## 🛠️ Technologies Used
-
-- **React**
-- **Material UI (MUI)**
-- **Axios**
-- **React Router**
-- **TMDb API**
-- **YouTube Embed**
+- 🔐 User Login Interface (UI only)
+- 🔍 Search movies by title with auto-complete
+- 🕘 Search history stored in local storage (only after pressing enter)
+- 📄 Movie Details Page with poster, overview, genre, cast, and trailer
+- ▶️ YouTube Trailer embedded via TMDb/YouTube
+- 🔥 Trending Movies section
+- 🌗 Light/Dark Mode toggle
+- ❤️ Favorites List (stored locally)
+- 📅 Filter by Genre, Year, and Rating
+- ➕ Load More button for paginated search results
+- 📱 Responsive design for all screen sizes
+- 🧠 Context API for app-wide state management
 
 ---
 
-## 🧑‍💻 Getting Started
+## 🔧 Project Setup
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movie-explorer.git
-cd movie-explorer
+git clone https://github.com/your-username/react-movie-app.git
+cd react-movie-app
 ```
